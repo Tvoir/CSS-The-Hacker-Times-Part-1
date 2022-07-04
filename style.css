@@ -50,6 +50,9 @@ h5 {
     padding: 10px;
 }
 
+.more-articles {
+    border-top: 2px solid #eee;
+}
 body {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -57,11 +60,9 @@ body {
     background-color: #eee;
 }
 
-main > p {
-    text-align: justify;
-}
 p {
-    text-align: center;
+    text-align: justify;
+    margin-left: 10px;
 }
 
 section {
@@ -75,7 +76,7 @@ section {
     width: 700px;
 }
 
-#border {
-    color: #eee;
+a {
+    text-decoration: none;
+    color: #777;
 }
-
